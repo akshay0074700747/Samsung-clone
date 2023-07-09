@@ -1,0 +1,353 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.largimg{
+    position: relative;
+    background-image: url('Camerry Res/kv-galaxy-s23-ultra_m.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 140vh;
+}
+
+#logotop{
+position: absolute;
+height: 20px;
+width: auto;
+top: 40px;
+left: 30px;
+}
+
+.menubutton{
+    background-color: #00000000;
+    border-style: none;
+    position: absolute;
+    height: 60px;
+    width: auto;
+    top: 40px;
+    right: 30px;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 50%;
+}
+
+.menubutton:hover{
+    background-color: #838484;
+}
+.btn-transparent {
+    background-image: url('Camerry Res/icons8-back-50.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    height: 60px;
+    width: auto;
+    margin: 25px;
+    margin-top: 400px;
+  }
+  #leftbtn{
+    transition: background-color 0.3s ease-in-out;
+  }
+  #leftbtn:hover{
+    background-color: #838484;
+  }
+  #rightbtn{
+    transition: background-color 0.3s ease-in-out;
+  }
+  #rightbtn:hover{
+    background-color: #838484;
+  }
+  #frstleftbtn{
+    transition: background-color 0.3s ease-in-out;
+  }
+  #frstleftbtn:hover{
+    background-color: #838484;
+  }
+  #frstrightbtn{
+    transition: background-color 0.3s ease-in-out;
+  }
+  #frstrightbtn:hover{
+    background-color: #838484;
+  }
+  #scntleftbtn{
+    transition: background-color 0.3s ease-in-out;
+  }
+  #scntleftbtn:hover{
+    background-color: #838484;
+  }
+  #scntrightbtn{
+    transition: background-color 0.3s ease-in-out;
+  }
+  #scntrightbtn:hover{
+    background-color: #838484;
+  }
+
+  #rightbtn{
+    transform: rotate(180deg);
+    position: absolute;
+    right: 10px;
+    bottom: 40%;
+  }
+  #leftbtn{
+    position: absolute;
+    left: 10px;
+    bottom: 40%;
+  }
+
+  .btn-transparent img{
+    height: 60px;
+    width: 15px;
+  }
+
+#lrgtxt{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: bolder;
+    text-decoration:none solid #ffffff
+}
+#lrgsmltxt{
+    position: absolute;
+    top: 7%;
+    left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: bolder;
+    text-decoration:none solid #ffffff
+}
+
+
+.custom-carousel-indicators {
+    position: absolute;
+    bottom: 1%;
+    left: 45%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .custom-carousel-indicators button {
+    background-color: #ccc;
+    border: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .custom-carousel-indicators button:hover{
+    background-color: #333;
+  }
+
+  .custom-carousel-indicators button.active {
+    background-color: #333;
+  }
+
+#circular{
+    transform: rotate(180deg);
+    background-image: url('Camerry Res/icons8-up-arrow-50.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    z-index: 3;
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    border-radius: 50%;
+    border: none;
+    opacity: 0.3;
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    transition: background-color 0.3s ease-in-out;
+}
+#circular:hover{
+    background-color: #494949;
+}
+
+#circularoppo{
+    background-image: url('Camerry Res/icons8-up-arrow-50.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    z-index: 3;
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    border-radius: 50%;
+    border: none;
+    opacity: 0.3;
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    transition: background-color 0.3s ease-in-out;
+}
+#circularoppo:hover{
+    background-color: #494949;
+}
+
+#videooo{
+    background-image: url('Camerry Res/btn_player_type1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    background-color: rgba(0,0,0,0)
+}
+
+#secondone{
+    position: relative;
+    height: 50vh;
+    background-image: url('Camerry Res/banner_2023-1h-unpacked-highlights.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#firstone{
+    position: relative;
+    height: 50vh;
+    background-image: url('Camerry Res/banner_galaxy-s23-tvc.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#frstleftbtn{
+    position: absolute;
+    left: 10px;
+    bottom: 40%;
+}
+
+#frstrightbtn{
+    transform: rotate(180deg);
+    position: absolute;
+    right: 10px;
+    bottom: 40%;
+}
+
+#scntleftbtn{
+    position: absolute;
+    left: 10px;
+    bottom: 40%;
+}
+
+#scntrightbtn{
+    transform: rotate(180deg);
+    position: absolute;
+    right: 10px;
+    bottom: 40%;
+}
+
+figure{
+    position: relative;
+}
+
+figcaption {
+    position: absolute; 
+    bottom: 10px; 
+    text-align: center;
+    width: 100%; 
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+
+.greysec{
+    box-shadow: 5px;
+    border-top: 1px #c9c7c7 solid;
+    margin-top: 50px;
+    height: auto;
+    width: 100%;
+    z-index: 5;
+    overflow: hidden;
+}
+
+#secondgrey{
+    border-top: none;
+    margin-top: 0px;
+    border-bottom: 1px #c9c7c7 solid;
+}
+
+footer{
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+#socialmedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 12vw;
+    align-items: center;
+}
+
+#blklogo{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+#blklogo img{
+    height: 20px;
+    width: auto;
+}
+
+#Mvtotop{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    height: 30px;
+    background-color: rgba(0,0,0,0);
+    border-style: none;
+    border: 1px rgb(131, 131, 131) solid;
+    border-radius: 6px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+#Mvtotop:hover{
+    background-color: #363636;
+    color: #ffffff;
+}
+
+@media (max-width: 1100px){
+    .largimg{
+        height: 102vh;
+    }
+}
+@media (max-width: 800px){
+    .largimg{
+        height: 74vh;
+    }
+}
+@media (max-width: 600px){
+    .largimg{
+        height: 60vh;
+    }
+}
+@media (max-width: 450px){
+    .largimg{
+        height: 50vh;
+    }
+}
+@media (max-width: 300px){
+    .largimg{
+        height: 40vh;
+    }
+}
+.greysec figure{
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.greysec figure:hover{
+    background-color: #1111fa;
+    color: #fff;
+}
